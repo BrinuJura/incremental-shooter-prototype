@@ -1,0 +1,11 @@
+move_speed = 5
+x_speed = 0
+y_speed = 0
+tp = false
+chunk_x = 0
+chunk_y = 0
+xp = 0
+love = 0
+needed_xp = 3
+max_hp = 500
+hp = max_hp

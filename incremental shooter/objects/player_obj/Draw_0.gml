@@ -1,0 +1,8 @@
+draw_self()
+draw_healthbar(bbox_left,bbox_bottom+5,bbox_right,bbox_bottom+7,hp/max_hp*100,c_black,c_red,c_red,0,true,true)
+draw_healthbar(bbox_left,bbox_bottom+11,bbox_right,bbox_bottom+13,xp/needed_xp*100,c_black,c_lime,c_lime,0,true,true)
+draw_set_valign(fa_middle)
+draw_set_halign(fa_center)
+draw_text(x,bbox_bottom+25,string(love))
+draw_set_valign(fa_left)
+draw_set_halign(fa_top)
